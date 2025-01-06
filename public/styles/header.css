@@ -1,0 +1,36 @@
+.header{
+    padding: 18px 74px;
+    display: flex;
+    background-color: var(--primary-main);
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--f16px);
+    font-weight: 400;
+}
+
+.header .leftbar{
+    display: flex;
+    gap: 30px;
+}
+
+.header .leftbar img{
+    width: 70px;
+    object-fit: contain;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar .nav.list{
+    margin: 0px 5px;
+    padding: 5px 20px;
+}
+
+.header .leftbar .navbar a{
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+

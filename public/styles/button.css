@@ -1,0 +1,85 @@
+
+/* Button for Header */
+
+.header .white.button{
+    color: var(--primary-main);
+    background-color: var(--white);
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .2s ease;
+    opacity: 90%;
+}
+
+.header .white.button:hover{
+    opacity: 100%;
+}
+
+
+/* Hero Buttons */
+.hero .main.content .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    margin: 38px auto;
+}
+
+.hero .main.content .buttons a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: var(--f16px);
+}
+
+.hero .main.content .buttons .primary{
+    background-color: var(--primary-active);
+    border: 1.2px solid var(--primary-active);
+    color: var(--white);
+    padding: 15px 110px;
+    border-radius: 6px;
+    
+}
+
+.hero .main.content .buttons .secondary{
+    background-color: white;
+    color: var(--primary-dark);
+    border: 1.2px solid var(--border-main);
+    border-radius: 6px;
+    padding: 15px 110px;
+}
+
+.hero .main.content .buttons .secondary:hover{
+    background-color: var(--card);
+}
+
+.contact.section .contact-form .submit{
+    padding: 12px 120px;
+    border: none;
+    font-size: var(--f16px);
+    background-color: var(--primary-active);
+    color: var(--white);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.popup{
+    width: 250px;
+    border-radius: 6px;
+    background-color: var(--success);
+    color: var(--text-success);
+    position: fixed;
+    text-align: left;
+    line-height: 2;
+    padding: 18px 14px;
+    visibility: hidden;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 85%;
+    left: 80%;
+}

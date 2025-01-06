@@ -1,0 +1,47 @@
+:root{
+    /* Fonts Size*/
+    --f16px: 1rem;
+    --f18px: 1.12rem;
+    --f20px: 1.25rem;
+    --f25px:1.56rem;
+    --f31px:1.93rem;
+    --f39px: 2.43rem;
+    --f48px: 3rem;
+
+    /* Colors */
+    --white: hsl(0, 0%, 100%);
+    --primary-main:hsl(216, 100%, 29%);
+    --primary-active: hsl(212, 100%, 45%);
+    --primary-card: hsl(200, 100%, 96%);
+    --primary-dark: hsl(240, 22%, 16%);
+    --border-main:hsl(240, 20%, 83%);
+    --border-active:hsl(240, 22%, 16%);
+    --border-inactive:hsl(0, 0%, 61%);
+    --text-active:hsl(240, 22%, 16%);
+    --text-secondary:hsl(48, 63%, 63%);
+    --text:hsl(0, 0%, 42%);
+    --text-inactive:hsl(0, 0%, 74%);
+    --success:hsl(97, 69%, 84%);
+    --text-success: hsl(136, 77%, 29%);
+    --card:hsl(0, 0%, 97%);
+    --card-inactive: hsl(0, 0%, 98%);
+}
+
+*, *::before, *::after{
+    margin: 0;
+}
+
+h1,h2,h3 {
+    margin:0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Roboto", serif;
+    color: var(--primary-main);
+}
+
+
