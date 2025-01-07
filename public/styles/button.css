@@ -5,9 +5,12 @@
     color: var(--primary-main);
     background-color: var(--white);
     font-weight: 400;
+    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 25px;
+    gap: 3px;
+    color: #27a830;
     border-radius: 6px;
     cursor: pointer;
     transition: .2s ease;

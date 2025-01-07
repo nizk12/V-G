@@ -28,6 +28,19 @@
 }
 
 
+/* Banner */
+.banner .banner-wrap{
+    display: flex;
+    background-color: var(--primary-dark);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: var(--f16px);
+    color: var(--white);
+    justify-content: center;
+    padding: 6px 0px;
+}
+
+
 /* CARD STYLING */
 
 .content .wrapper .carousel::-webkit-scrollbar{
@@ -221,6 +234,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     color: var(--white);
+    
 }
 
 footer img{
