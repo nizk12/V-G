@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const nodemailer = require("nodemailer");
 
-const PORT = process.env.PORT || 5000 || vglory - backend.onrender.com;
+const PORT = process.env.PORT || vglory - backend.onrender.com;
 
 //Middleware
 app.use(express.static("public"));
