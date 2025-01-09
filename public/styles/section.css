@@ -30,7 +30,7 @@
 /* Banner */
 .banner .banner-wrap{
     display: flex;
-    background-color: var(--primary-dark);
+    background-color: hsla(134, 81%, 15%, 0.767);
     text-transform: uppercase;
     font-weight: 400;
     font-size: var(--f16px);
