@@ -71,6 +71,7 @@ main .hero .main.content .text h1{
 
 .hero hr{
     border-top: 1px solid var(--border);
+    margin-bottom: 80px;
 }
 
 
