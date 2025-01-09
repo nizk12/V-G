@@ -227,13 +227,13 @@
 
 
 footer{
+    min-height: 90px;
     display: flex;
     background-color: var(--primary-dark);
     padding: 40px 74px ;
     justify-content: space-between;
     align-items: center;
     color: var(--white);
-    
 }
 
 footer img{
@@ -294,16 +294,4 @@ footer .links{
 
 footer .links a{
     color: white;
-}
-
-
-
-
-/* About Us */
-.hero .abouthero{
-    height: 110px;
-    width: 100%;
-}
-.hero .main.content .text h1{
-    font-size: var(--f25px);
 }

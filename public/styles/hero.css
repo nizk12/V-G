@@ -1,5 +1,4 @@
 .hero{
-    height: 100vh;
     position: relative;
     color: var(--primary-dark);
     text-align: center;
@@ -72,4 +71,25 @@ main .hero .main.content .text h1{
 
 .hero hr{
     border-top: 1px solid var(--border);
+}
+
+
+
+/* About US */
+.about.hero picture .abouthero{
+        width: 100%;
+        object-fit: cover;
+        height: 1200px;   
+}
+
+.about.hero .about.content .text .heading{
+    font-size: var(--f31px);
+    padding: 40px 0;
+}
+
+.about.hero .about.content .text p{
+    padding: 12px 80px;
+    font-size: var(--f18px);
+    line-height: 2;
+    margin-bottom: 40px;
 }

@@ -37,6 +37,7 @@ h1,h2,h3 {
 
 html{
     scroll-behavior: smooth;
+    position: relative;
 }
 
 body{
@@ -45,8 +46,8 @@ body{
 }
 
 main{
-    min-height:100vh; 
+    height: 100vh;
     display:flex; 
     flex-direction:column; 
-    justify-content:space-between;
+    justify-content: space-between;
 }
