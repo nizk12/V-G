@@ -1,5 +1,8 @@
 :root{
     /* Fonts Size*/
+    --f10px: .62rem;
+    --f12px: .75rem;
+    --f14px:0.87rem; 
     --f16px: 1rem;
     --f18px: 1.12rem;
     --f20px: 1.25rem;
