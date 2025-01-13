@@ -1,6 +1,6 @@
 
 /* Extra small phones */
-@media (max-width: 480px){
+@media (min-width:360px) and (max-width: 480px){
     .header{
         padding: 12px 40px ;
     }
@@ -103,7 +103,6 @@
     padding: 18px 20px;
    }
    .content .wrapper .carousel .cards .card .text h2{
-
     font-size: var(--f14px);
    }
 
@@ -114,25 +113,61 @@
     margin: 15px;
    }
 
-   .contact.section form .inputs{
-    width: 100%;
-    }
-
    /* About the tours */
    .content .tours .about.section .container .text{
     width: 250px;
    }
 
-.content .tours .package.section .tour .card {
-    width: 270px;
-}
+
+   /* Contact Form */
+   #cf.contact.section h1{
+    font-size: var(--f16px);
+   }
+
+   .contact.section form.contact-form input#name:placeholder-shown{
+    font-size: var(--f14px);
+   }
+
+   #cf.contact.section .contact-form .inputs input::placeholder{
+    font-size: var(--f14px);
+   }
+
+   #cf.contact.section .contact-form .inputs textarea::placeholder{
+    font-size: var(--f14px);
+   }
+
+   .contact.section form.contact-form{
+    font-size: var(--f14px);
+   }
+
+   .contact.section .contact-form div.dropdown select#category{
+    font-size: var(--f14px);
+   }
+
+   .contact.section .contact-form div.inputs{
+    max-width: 335px;
+   }
+
+   .contact.section .contact-form div.dropdown{
+    max-width: 335px;
+   }
+
+   .contact.section .contact-form input.submit{
+    max-width: 335px;
+   }
 
 
-footer .contactinfo .text{
-    display: flex;
-    flex-direction: column;
+
+    .content .tours .package.section .tour .card {
+     width: 270px;
+    }
+
+    footer .contactinfo .text{
+        display: flex;
+        flex-direction: column;
     }
 }
+
 
 /* Small Screens Phone */
 @media (min-width: 577px) and (max-width: 768px){
