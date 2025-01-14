@@ -69,8 +69,13 @@
 
    .hero .main.content .experiences{
         width: 250px;
+        gap: 12px;
    }
 
+   .hero .main.content .experiences .experience{
+    padding: 4px 0;
+    height: 75px;
+   }
 
    .hero .main.content .experiences .experience h1{
     font-size: var(--f14px);
