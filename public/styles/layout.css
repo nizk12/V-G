@@ -29,15 +29,14 @@
     }
 
     .hero .main.content{
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
 
     .hero .main.content .text{
         font-size: var(--f14px);
         padding: 0 35px;
         text-align: center;
-        padding-top: 75px;
-        padding-bottom: 24px;
+        padding-top: 40px;
         
 
     }
@@ -70,17 +69,17 @@
 
    .hero .main.content .experiences{
         width: 250px;
-        flex-direction: column;
-        display: none;
    }
+
+
    .hero .main.content .experiences .experience h1{
-    font-size: var(--f20px);
+    font-size: var(--f14px);
    }
    
    .hero .main.content .experiences .experience p{
-    
-    font-size: var(--f16px);
+    font-size: var(--f12px);
     line-height: 1.5;
+    width: 120px;
     
    } 
 
