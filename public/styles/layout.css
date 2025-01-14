@@ -25,15 +25,19 @@
     .hero picture img.heroimg{
         width: 100%;
         object-fit: cover;
-        height: 120px;  
+        height: 140px;  
+    }
+
+    .hero .main.content{
+        padding-bottom: 40px;
     }
 
     .hero .main.content .text{
         font-size: var(--f14px);
         padding: 0 35px;
         text-align: center;
-        padding-top: 50px;
-        padding-bottom: 12px;
+        padding-top: 75px;
+        padding-bottom: 24px;
         
 
     }
@@ -90,34 +94,35 @@
    }
 
    .content .wrapper .container .title h1 {
-    font-size: var(--f14px);
+    font-size: var(--f16px);
    }
 
    .content .wrapper .container .title p{
-    font-size: var(--f12px);
-    padding: 0 6px;
+    font-size: var(--f14px);
+    line-height: 1.5;
+    padding: 10px 6px;
    }
 
    /* Content Buttons */
    
    .content .wrapper .carousel .cards{
-    margin: 0 20px;
+    margin: 16px 20px;
    }
 
    .content .wrapper .carousel .cards .card img {
-    height: 172px;
+    height: 160px;
     width: 100%;
    }
 
    .content .wrapper .carousel .cards .card .text{
-    width: 215px;
+    width: 202px;
     text-align: justify;
-    font-size: var(--f12px);
+    font-size: var(--f14px);
     line-height: 1.5;
     padding: 18px 20px;
    }
    .content .wrapper .carousel .cards .card .text h2{
-    font-size: var(--f14px);
+    font-size: var(--f16px);
    }
 
    #nextBtn, #backBtn{
@@ -128,14 +133,57 @@
    }
 
    /* About the tours */
-   .content .tours .about.section .container .text{
-    width: 250px;
+
+   .content .tours .about.section {
+    margin: 80px 20px;
+    margin-bottom: 55px;
    }
+
+   .content .tours .about.section .container .text{
+    font-size: var(--f14px);
+    width: 100%;
+    gap: 12px;
+   }
+
+
+   .content .tours .about.section .container .text h1{
+    font-size: var(--f16px);
+   }
+
+
+   .content .tours .about.section .container .text p{
+    padding: 0 12px;
+    }
+
+    .content .tours .package.section .tour{
+        padding: 0 18px;
+    }
+
+
+    .content .tours .package.section .tour .card {
+        width: 300px;
+    }
+
+    .content .tours .package.section .tour .card .text{
+        padding: 4px 16px;
+        font-size: var(--f14px);
+    }
+    .content .tours .package.section .tour .card .text h2{
+        font-size: var(--f16px);
+    }
+
+    .content .tours .package.section .tour .card .text p{
+        font-size: var(--f14px);
+    }
+
+    .content .tours .package.section .tour .card img{
+        height: 180px;
+    }
 
 
    /* Contact Form */
    #cf.contact.section h1{
-    font-size: var(--f16px);
+    font-size: var(--f18px);
    }
 
    .contact.section form.contact-form input#name:placeholder-shown{
@@ -145,6 +193,15 @@
    #cf.contact.section .contact-form .inputs input::placeholder{
     font-size: var(--f14px);
    }
+
+    #cf.contact.section .contact-form .inputs input {
+        font-size: var(--f14px);
+    }
+
+    #cf.contact.section .contact-form .inputs textarea{
+        font-size: var(--f14px);
+    }
+
 
    #cf.contact.section .contact-form .inputs textarea::placeholder{
     font-size: var(--f14px);
@@ -172,9 +229,7 @@
 
 
 
-    .content .tours .package.section .tour .card {
-     width: 270px;
-    }
+    
 
     footer .contactinfo .text{
         display: flex;

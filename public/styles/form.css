@@ -64,20 +64,27 @@
 
 .contact.section .contact-form .inputs input::placeholder {
     font-size: 0.98rem;
+    background-color: transparent;
     color: var(--text-inactive);
 }
 
 .contact.section .contact-form .inputs input:placeholder-shown {
+    background-color: transparent;
+
     border: 1.5px solid var(--border-main);
 }
 
 .contact.section .contact-form .inputs input {
     border: 1.5px solid var(--primary-dark);
+    background-color: transparent;
+
 }
 
 .contact.section .contact-form .inputs textarea {
     padding: 12px 11px;
     font-size: var(--f18px);
+    background-color: transparent;
+
     border-radius: 5px;
     font-family: "Roboto", sans-serif;
     resize: none;
@@ -86,8 +93,12 @@
 .contact.section .contact-form .inputs textarea::placeholder {
     font-size: 0.98rem;
     color: var(--text-inactive);
+    background-color: transparent;
+
 }
 
 .contact.section .contact-form .inputs textarea:placeholder-shown {
     border: 1.5px solid var(--border-main);
+    background-color: transparent;
+
 }
